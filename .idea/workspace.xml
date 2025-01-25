@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33d5aed8-2957-45ff-9935-a22835d00389" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ExerciseWeek3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise1/exercise1_week3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise2/exercise2_week3.py" afterDir="false" />
+    <list default="true" id="33d5aed8-2957-45ff-9935-a22835d00389" name="Changes" comment="Initial commit with 2 first exercises.">
+      <change afterPath="$PROJECT_DIR$/Exercise3/exercise3_week3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MagnusHansson50"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MagnusHansson50/ExercisesWeek3.git",
+    "accountId": "b418fcac-e860-4a0d-b80b-c8dc0186fe09"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
@@ -41,6 +48,7 @@
   "keyToString": {
     "Python.exercise1_week3.executor": "Run",
     "Python.exercise2_week3.executor": "Run",
+    "Python.exercise3_week3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
@@ -61,6 +69,18 @@
       <option name="presentableId" value="Default" />
       <updated>1737737452616</updated>
     </task>
+    <task id="LOCAL−00001" summary="Initial commit with 2 first exercises.">
+      <option name="closed" value="true" />
+      <created>1737742055557</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1737742055558</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit with 2 first exercises." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit with 2 first exercises." />
   </component>
 </project>

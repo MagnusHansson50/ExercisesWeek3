@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33d5aed8-2957-45ff-9935-a22835d00389" name="Changes" comment="Commit with exercise 3.">
-      <change afterPath="$PROJECT_DIR$/Exercise4/exercise4_week3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise5/exercise5_week3.py" afterDir="false" />
+    <list default="true" id="33d5aed8-2957-45ff-9935-a22835d00389" name="Changes" comment="Commit for exercise 4 and 5. Exercise 4 not ready.">
+      <change afterPath="$PROJECT_DIR$/Exercise6/exrcise6_week3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +51,7 @@
     "Python.exercise3_week3.executor": "Run",
     "Python.exercise4_week3.executor": "Run",
     "Python.exercise5_week3.executor": "Run",
+    "Python.exrcise6_week3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
@@ -86,12 +86,20 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1737808402506</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Commit for exercise 4 and 5. Exercise 4 not ready.">
+      <option name="closed" value="true" />
+      <created>1737810277114</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1737810277114</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit with 2 first exercises." />
     <MESSAGE value="Commit with exercise 3." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit with exercise 3." />
+    <MESSAGE value="Commit for exercise 4 and 5. Exercise 4 not ready." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit for exercise 4 and 5. Exercise 4 not ready." />
   </component>
 </project>

@@ -1,9 +1,10 @@
 import random
 
 secret = random.randint(1, 100)
+gissning = 0
 antal_gissningar = 0
 
-while True:
+while gissning != secret:
     gissning = input("Välkommen till gissa talet! Jag tänker på ett tal mellan 1 och 100. Kan du gissa vilket det är? ")
 
     try:

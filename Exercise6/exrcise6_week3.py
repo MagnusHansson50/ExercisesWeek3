@@ -1,6 +1,30 @@
 todo_list = []
 done_list = []
 
+def print_todo_list():
+    if len(todo_list) > 0:
+        print("Att göra listan")
+        i = 1
+        for todo in todo_list:
+            print(f"{i}. " + todo)
+            i += 1
+        return True
+    else:
+        print("Listan är tom")
+        return False
+
+def print_done_list():
+    if len(done_list) > 0:
+        print("Att göra listan")
+        i = 1
+        for done in done_list:
+            print(f"{i}. " + done)
+            i += 1
+        return True
+    else:
+        print("Listan är tom")
+        return False
+
 while True:
     print("Meny")
     print("1. Se innehållet i din lista")
@@ -13,25 +37,13 @@ while True:
     try:
         alternativ = int(alternativ)
         if alternativ == 1:
-            if len(todo_list) > 0:
-                print("Att göra listan")
-                i = 1
-                for todo in todo_list:
-                    print(f"{i}. " + todo)
-                    i += 1
-            else:
-               print("Listan är tom")
+            print_todo_list()
         elif alternativ == 2:
             add_to_list = input("Skriv in en ny sak du måste komma ihåg att göra: ")
             todo_list.append(add_to_list)
             print(f"Ok, lade till {add_to_list} i listan.")
         elif alternativ == 3:
-            if len(todo_list) > 0:
-                print("Att göra listan")
-                i = 1
-                for todo in todo_list:
-                    print(f"{i}. " + todo)
-                    i += 1
+            if print_todo_list():
                 index = input("Vilken sak är du klar med, ange nummer? ")
                 if index.isdigit():
                     if 0 < int(index) <= len(todo_list):
@@ -44,23 +56,11 @@ while True:
                 else:
                     print("Ingen giltig inmatning")
             else:
-                print("Listan är tom")
+                print("Lägg till saker först")
         elif alternativ == 4:
-            if len(done_list) > 0:
-                print("Klargjorda saker listan")
-                i = 1
-                for done in done_list:
-                    print(f"{i}. " + done)
-                    i += 1
-            else:
-                print("Listan är tom")
+            print_done_list()
         elif alternativ == 5:
-            if len(done_list) > 0:
-                print("Klargjorda saker listan")
-                i = 1
-                for done in done_list:
-                    print(f"{i}. " + done)
-                    i += 1
+            if print_done_list():
                 index = input("Vilket nummer i listan vill du lägga tillbaka? ")
                 if index.isdigit():
                     if 0 < int(index) <= len(done_list):
@@ -71,7 +71,7 @@ while True:
                 else:
                     print("Ingen giltig inmatning")
             else:
-                print("Listan är tom")
+                print("Klarmarkera saker först.")
         elif alternativ == 6:
             break
         else:

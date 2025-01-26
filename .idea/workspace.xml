@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33d5aed8-2957-45ff-9935-a22835d00389" name="Changes" comment="Done with exercise 4">
+    <list default="true" id="33d5aed8-2957-45ff-9935-a22835d00389" name="Changes" comment="Updated exercise 6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise6/exrcise6_week3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise6/exrcise6_week3.py" afterDir="false" />
     </list>
@@ -128,7 +128,14 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1737816189246</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="Updated exercise 6">
+      <option name="closed" value="true" />
+      <created>1737818572940</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1737818572940</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,9 +144,9 @@
     <MESSAGE value="Commit for exercise 4 and 5. Exercise 4 not ready." />
     <MESSAGE value="Added exercise 6" />
     <MESSAGE value="Added more in exercise 4" />
-    <MESSAGE value="Updated exercise 6" />
     <MESSAGE value="Updated exercise 5 and 4" />
     <MESSAGE value="Done with exercise 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done with exercise 4" />
+    <MESSAGE value="Updated exercise 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated exercise 6" />
   </component>
 </project>
